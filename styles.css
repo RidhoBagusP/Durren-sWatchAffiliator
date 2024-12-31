@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background: #e67e22;
+}
+
+/* Product Section */
+.products {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+
+.product {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ProductInformation{
+    text-align:left;
+    margin: 1px 1px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+
+.PriceBefore{
+    text-decoration: line-through;
+    font-size: 10px;
+    color: #e67e22;
+    margin: 0px;
+}
+
+.PriceAfter{
+    margin: 0px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.JumlahPenjualan{
+    font-size: 12px;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ecf0f1;
+}
+
+.attention {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ecf0f1;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #2980b9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
